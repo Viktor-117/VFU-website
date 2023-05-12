@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/filson-pro?styles=96092,96090"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/images/logo-blue-text.png" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>VFU</title>
+  </head>
+  <body class="body" onload="requestAnimationFrame()">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="assets/images/logo-vfu-text.svg"
+              width="114"
+              height="39"
+              alt="VFU-logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="container">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdowntext-nav">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >About VFU
+                    <img
+                      class="nav-item-icon"
+                      src="./assets/icons/chevron-down.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Partnering NGOs</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-secondary">
+                    Shop
+                    <img
+                      src="./assets/icons/arrow-right.svg"
+                      width="18"
+                      height="18"
+                      alt="arrow"
+                    />
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-primary nav">
+                    I want to help
+                    <img
+                      src="./assets/icons/ua-heart-white-border.svg"
+                      width="18"
+                      height="18"
+                      alt="heart"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <ul class="dropdown-menu"></ul> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="left-part">
+            <div class="logo-title-wrapper">
+              <div>
+                <img
+                  class="hero-image"
+                  src="assets/images/logo-blue-text.png"
+                  alt="VFU"
+                />
+                <h1 class="hero-title blue-underline">VOLUNTEERS</h1>
+              </div>
+              <div>
+                <h1 class="hero-title yellow-underline">FOR UKRAINE</h1>
+              </div>
+            </div>
+            <p class="logo-text">
+              We work with partners, officials, NGOs, volunteers, and contacts
+              on the ground to organize volunteer efforts
+            </p>
+            <button class="logo-btn">
+              I want to help
+              <img
+                src="./assets/icons/ua-heart-white-border.svg"
+                alt="heart"
+                class="logo-btn-img"
+              />
+            </button>
+          </div>
+          <div class="right-part">
+            <ul class="projects">
+              <li class="card">
+                <img src="./assets/images/project-1.png" alt="project-image" />
+                <p class="card-text">
+                  See how an American delivers lifeline to frontline civilians
+                </p>
+                <p class="card-tag">Humanitarian aid</p>
+              </li>
+              <li class="card">
+                <img src="./assets/images/project-2.png" alt="project-image" />
+                <p class="card-text">War Museum through US</p>
+                <p class="card-tag">Support</p>
+              </li>
+              <li class="card">
+                <img src="./assets/images/project-3.png" alt="project-image" />
+                <p class="card-text">
+                  Spartan initiative with 4 current VFU volunteers
+                </p>
+                <p class="card-tag">Support</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section About -->
+      <section class="about">
+        <div class="container">
+          <div class="left-part">
+            <h2 class="about-title">
+              VFU is a volunteer organization supporting Ukraine with
+              professional expertise.
+            </h2>
+            <p class="about-text">
+              We connect verified volunteers with financial sponsors and provide
+              them with the necessary logistical support to reach the areas
+              where they are most needed.
+            </p>
+            <p class="about-text">
+              Our efforts are coordinated with partners, officials, NGOs, and
+              local volunteers on the ground.
+            </p>
+            <button class="about-btn" type="button">
+              Learn more about VFU
+              <img
+                src="./assets/icons/right-arrow.svg"
+                width="24"
+                height="24"
+                alt="right-arrow"
+              />
+            </button>
+          </div>
+          <div class="middle-part">
+            <div class="about-card-wrapper">
+              <img
+                class="about-img"
+                src="./assets/icons/money-support.svg"
+                alt="money-support"
+              />
+              <h2 class="about-card-title">NGOs support</h2>
+              <p class="about-card-text">
+                We support and enable smaller volunteer groups and projects on
+                the ground in Ukraine to have a meaningful impact in their
+                communities.
+              </p>
+            </div>
+            <div class="about-card-wrapper">
+              <img
+                class="about-img"
+                src="./assets/icons/ua-heart-white-border.svg"
+                alt="money-support"
+              />
+              <h2 class="about-card-title">Humanitarian aid</h2>
+              <p class="about-card-text">
+                We direct all our efforts to help and provide everything
+                necessary for those defending our borders and skies at the cost
+                of their lives
+              </p>
+            </div>
+          </div>
+          <div class="right-part">
+            <div class="about-card-wrapper">
+              <img
+                class="about-img"
+                src="./assets/icons/medial-aid.svg"
+                alt="money-support"
+              />
+              <h2 class="about-card-title">Medical aid</h2>
+              <p class="about-card-text">
+                We direct all our efforts to help and provide everything
+                necessary for those defending our borders and skies at the cost
+                of their lives
+              </p>
+            </div>
+            <div class="about-card-wrapper">
+              <img
+                class="about-img"
+                src="./assets/icons/ua-peace.svg"
+                alt="money-support"
+              />
+              <h2 class="about-card-title">IDPs & refugees aid</h2>
+              <p class="about-card-text">
+                We direct all our efforts to help and provide everything
+                necessary for those defending our borders and skies at the cost
+                of their lives
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Photo -->
+      <section class="photo">
+        <img
+          src="./assets/images/photo-main.jpg"
+          alt="main-photo"
+          class="photo-img"
+        />
+      </section>
+
+      <!-- Secion Help -->
+      <section class="help">
+        <div class="container">
+          <div class="left-part">
+            <h2 class="help-title">Your help <br />is needed!</h2>
+            <p class="help-text">
+              At VFU, we believe that everyone has the power to create positive
+              change, and we invite you to be a part of our mission to support
+              Ukraine.
+            </p>
+          </div>
+          <div class="right-part">
+            <div class="help-card">
+              <button class="arrow-btn" type="button">
+                <img
+                  src="./assets/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  class="arrow-img"
+                />
+              </button>
+              <img
+                src="./assets/icons/money-support.svg"
+                alt="money-support"
+                class="help-card-img"
+              />
+              <h3 class="help-card-title">Donate</h3>
+              <p class="help-text">
+                Donate to help us funds our efforts and travel expenses for
+                volunteers
+              </p>
+            </div>
+            <div class="help-card">
+              <button class="arrow-btn" type="button">
+                <img
+                  src="./assets/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  class="arrow-img"
+                />
+              </button>
+              <img
+                src="./assets/icons/ua-plane.svg"
+                alt="ua-plane"
+                class="help-card-img"
+              />
+              <h3 class="help-card-title">Air miles</h3>
+              <p class="help-text">
+                Have a frequent miles?<br />We have volunteers
+              </p>
+              <button class="help-btn" type="button">
+                I want to help
+                <img
+                  src="./assets/icons/ua-heart-white-border.svg"
+                  alt="-ua-heart-icon"
+                  class="help-btn-icon"
+                />
+              </button>
+            </div>
+            <div class="help-card">
+              <button class="arrow-btn" type="button">
+                <img
+                  src="./assets/icons/arrow-right.svg"
+                  alt="arrow-right"
+                  class="arrow-img"
+                />
+              </button>
+              <img
+                src="./assets/icons/medial-aid.svg"
+                alt="medical-aid"
+                class="help-card-img"
+              />
+              <h3 class="help-card-title">Corporate Contribution</h3>
+              <p class="help-text">
+                Are you distributor? <br />We have needs for protective
+                equipment and medical supplies
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Current Projects -->
+      <!-- <section class="current-projects">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="title">Current projects that need your help</h2>
+            <button class="current-projects-btn" type="button">
+              View all projects
+              <img
+                src="./assets/icons/arrow-bent-right.svg"
+                alt="arrow-right-icon"
+                class="btn-icon"
+              />
+            </button>
+          </div>
+
+          <div
+            id="slider-container"
+            class="no-scrollbar"
+            onscroll="requestAnimationFrame()"
+          >
+            <div id="slider">
+              <div class="current-projects-card card">
+                <div class="img-wrapper">
+                  <img
+                    src="./assets/images/current-projects-1.jpg"
+                    alt="current-projects-image"
+                    class="current-img"
+                  />
+                  <p class="card-tag">Medical</p>
+                </div>
+
+                <div class="text-wrapper">
+                  <h3 class="card-title">War Museum through US</h3>
+                  <p class="card-text">
+                    “Ukraine - Crucifixion” is the first-ever exhibition in
+                    Ukraine, and around the wo...
+                  </p>
+                  <div class="card-button-wrapper">
+                    <button class="primary-btn" type="button">
+                      Donate
+                      <img
+                        src="./assets/icons/ua-heart-white-border.svg"
+                        alt="ua-heart"
+                        class="btn-img"
+                      />
+                    </button>
+                    <button class="secondary-btn" type="button">
+                      Read more
+                      <img
+                        src="./assets/icons/arrow-bent-right-bl.svg"
+                        alt="arrow-right"
+                        class="btn-img"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="current-projects-card card">
+                <div class="img-wrapper">
+                  <img
+                    src="./assets/images/current-projects-2.jpg"
+                    alt="current-projects-image"
+                    class="current-img"
+                  />
+                  <p class="card-tag secondary">Medical</p>
+                </div>
+
+                <div class="text-wrapper">
+                  <h3 class="card-title">Sponsoring Prosthetic for Yevhen</h3>
+                  <p class="card-text">
+                    At VFU, we believe that everyone has the power to create
+                    positive change,
+                  </p>
+                  <div class="card-button-wrapper">
+                    <button class="primary-btn" type="button">
+                      Donate
+                      <img
+                        src="./assets/icons/ua-heart-white-border.svg"
+                        alt="ua-heart"
+                        class="btn-img"
+                      />
+                    </button>
+                    <button class="secondary-btn" type="button">
+                      Read more
+                      <img
+                        src="./assets/icons/arrow-bent-right-bl.svg"
+                        alt="arrow-right"
+                        class="btn-img"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="current-projects-card card">
+                <div class="img-wrapper">
+                  <img
+                    src="./assets/images/current-projects-3.jpg"
+                    alt="current-projects-image"
+                    class="current-img"
+                  />
+                  <p class="card-tag secondary">Medical</p>
+                </div>
+
+                <div class="text-wrapper">
+                  <h3 class="card-title">Sponsoring Kind Deeds</h3>
+                  <p class="card-text">
+                    At VFU, we believe that everyone has the power to create
+                    positive change,
+                  </p>
+                  <div class="card-button-wrapper">
+                    <button class="primary-btn" type="button">
+                      Donate
+                      <img
+                        src="./assets/icons/ua-heart-white-border.svg"
+                        alt="ua-heart"
+                        class="btn-img"
+                      />
+                    </button>
+                    <button class="secondary-btn" type="button">
+                      Read more
+                      <img
+                        src="./assets/icons/arrow-bent-right-bl.svg"
+                        alt="arrow-right"
+                        class="btn-img"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="slider-buttons">
+          <button id="scroll-left" onclick="slide('LEFT')">&#10094;</button>
+          <div
+            id="input-filter"
+            contenteditable="true"
+            oninput="filter()"
+          ></div>
+          <button id="scroll-right" onclick="slide('RIGHT')">&#10095;</button>
+        </div>
+      </section> -->
+
+      <!-- Section Partners -->
+      <!-- <section class="partners slide-option">
+        <div class="container">
+          <img
+            src="./assets/images/logo-blue-text.png"
+            alt="Logo"
+            class="logo"
+          />
+          <h2 class="partners-title">Our Partners NGOs</h2>
+          <p class="partners-text">
+            Our mission at VFU is to provide support to smaller volunteering
+            groups and projects operating on the ground in Ukraine. We aim to
+            play an "Angel investor" role in enabling these groups to have a
+            meaningful impact on the communities they serve.
+          </p>
+
+          <div class="swiper">
+            <div class="partners-list swiper-wrapper">
+              <div class="partners-list-item swiper-slide">
+                <img
+                  src="./assets/images/partners-1.png"
+                  alt="partner-logo"
+                  class="partners-logo"
+                />
+              </div>
+              <div class="partners-list-item swiper-slide">
+                <img
+                  src="./assets/images/partners-2.png"
+                  alt="partner-logo"
+                  class="partners-logo"
+                />
+              </div>
+              <div class="partners-list-item swiper-slide">
+                <img
+                  src="./assets/images/partners-3.png"
+                  alt="partner-logo"
+                  class="partners-logo"
+                />
+              </div>
+              <div class="partners-list-item swiper-slide">
+                <img
+                  src="./assets/images/partners-4.png"
+                  alt="partner-logo"
+                  class="partners-logo"
+                />
+              </div>
+              <div class="partners-list-item swiper-slide">
+                <img
+                  src="./assets/images/partners-5.png"
+                  alt="partner-logo"
+                  class="partners-logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <button class="partners-btn" type="button">
+            Show all partners
+            <img
+              src="./assets/icons/arrow-bent-right.svg"
+              alt="right-arrow"
+              class="btn-icon"
+            />
+          </button>
+        </div>
+      </section> -->
+
+      <!-- Section Updates -->
+      <section class="updates">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="title">Recent updates</h2>
+            <button class="updates-btn" type="button">
+              Show all news
+              <img
+                src="./assets/icons/arrow-bent-right.svg"
+                alt="right-arrow"
+                class="btn-icon"
+              />
+            </button>
+          </div>
+          <div class="primary-news-card">
+            <div class="card-text-wrapper">
+              <p class="card-tag">Medical</p>
+              <h3 class="primary-news-title">
+                Spartan initiative with 4 current VFU volunteers
+              </h3>
+              <p class="primary-news-text">
+                On behalf of President of Ukraine Volodymyr Zelenskyy, Head of
+                the Office of the President Andriy Yermak held a meeting with a
+                group of US veterans – activists and philanthropists, who handed
+                over equipment and other important humanitarian aid to the Armed
+                Forces of Ukraine.
+              </p>
+              <div class="button-wrapper">
+                <p class="date">April 25, 2022</p>
+                <button class="read-more-btn" type="button">
+                  Read more
+                  <img
+                    src="./assets/icons/arrow-bent-right-bl.svg"
+                    alt="right-arrow"
+                    class="read-more-img"
+                  />
+                </button>
+              </div>
+            </div>
+            <img
+              src="./assets/images/news-1.jpg"
+              alt="news-image"
+              class="primary-img"
+            />
+          </div>
+          <div class="news-list">
+            <div class="news-card">
+              <p class="card-tag">Humanitarian</p>
+              <img
+                src="./assets/images/news-2.jpg"
+                alt="news-image"
+                class="card-img"
+              />
+              <div class="card-text-wrapper">
+                <h3 class="card-title">
+                  See how an American delivers lifeline to frontline
+                </h3>
+                <p class="card-text">
+                  Parts of Eastern Ukraine have been
+                  <span class="underline">without running water</span> since the
+                  beginning of the invasion. Volunteer organizations like
+                  Aque...
+                </p>
+              </div>
+              <p class="card-date">April 25, 2022</p>
+            </div>
+            <div class="news-card">
+              <p class="card-tag">Medical</p>
+              <img
+                src="./assets/images/news-3.jpg"
+                alt="news-image"
+                class="card-img"
+              />
+              <div class="card-text-wrapper">
+                <h3 class="card-title">War Museum through US</h3>
+                <p class="card-text">
+                  Ukraine – Crucifixion” is the first-ever exhibition in
+                  Ukraine, and around the world about the ongoing war, and in
+                  the time of the ongoing war.
+                </p>
+              </div>
+              <p class="card-date">April 25, 2022</p>
+            </div>
+            <div class="news-card">
+              <p class="card-tag">Partners</p>
+              <img
+                src="./assets/images/news-4.jpg"
+                alt="news-image"
+                class="card-img"
+              />
+              <div class="card-text-wrapper">
+                <h3 class="card-title">Wounds of the Heart</h3>
+                <p class="card-text">
+                  Roman Mizerota is co-owner and Director of Logistics with
+                  Alliance Cargo Express, a dynamic company in New York that
+                  provides logistical service
+                </p>
+              </div>
+              <p class="card-date">April 25, 2022</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Success Stories -->
+      <section class="success-stories">
+        <div class="container">
+          <div class="title-wrapper">
+            <img
+              src="./assets/images/logo-blue-text.png"
+              alt="logo"
+              class="title-logo"
+            />
+            <h2 class="title">
+              Success Stories <br />from Donors & Volunteers
+            </h2>
+            <button class="show-all-btn" type="button">
+              Show all stories
+              <img
+                src="./assets/icons/arrow-bent-right.svg"
+                alt="arrow-right"
+                class="btn-icon"
+              />
+            </button>
+          </div>
+          <div class="stories-list">
+            <div class="story-card">
+              <div class="name-wrapper">
+                <h3 class="name">Ilana B</h3>
+                <p class="profession">Donor</p>
+              </div>
+              <p class="card-text">
+                “I donated a surgeon's travel to Lviv to deliver medical
+                supplies and much needed medical care to bombing victims. It was
+                a very simple and very rewarding experience. Volunteer for
+                Ukraine connected me to the volunteer surgeon via email, he gave
+                me a rough timeline for his travel and I went online and booked
+                his travel to Warsaw via a United miles ticket and Marriott
+                rewards...
+              </p>
+            </div>
+            <div class="story-card">
+              <div class="name-wrapper">
+                <h3 class="name">David Martinez</h3>
+                <p class="profession">Volunteer</p>
+              </div>
+              <p class="card-text">
+                “As a Grassroots Organization, VFU managed to get me in contact
+                with a donor who gave me his miles to fly to Poland, as well as
+                proper legit contacts on the ground. I couldn’t get these same
+                opportunities anywhere else, and getting help from this
+                organization helps me do what I can as a former Navy Corpsman on
+                the ground!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Gallery -->
+      <section class="gallery">
+        <div class="container">
+          <div class="grid">
+            <img
+              src="./assets/images/gallery-1.jpg"
+              alt="image 1"
+              class="grid-image image-1"
+            />
+            <img
+              src="./assets/images/gallery-2.jpg"
+              alt="image 2"
+              class="grid-image image-2"
+            />
+            <img
+              src="./assets/images/gallery-3.jpg"
+              alt="image 3"
+              class="grid-image image-3"
+            />
+            <img
+              src="./assets/images/gallery-4.jpg"
+              alt="image 4"
+              class="grid-image image-4"
+            />
+            <img
+              src="./assets/images/gallery-5.jpg"
+              alt="image 5"
+              class="grid-image image-5"
+            />
+            <img
+              src="./assets/images/gallery-6.jpg"
+              alt="image 6"
+              class="grid-image image-6"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Social Media -->
+      <section class="social-media">
+        <div class="container">
+          <h2 class="title">Join us in making a difference!</h2>
+          <p class="text">
+            Be the first to know about our upcoming projects, events, and
+            volunteer opportunities! Follow us on our social media channels to
+            stay updated and be a part of our mission to help Ukraine.
+          </p>
+          <div class="social-icons-wrapper">
+            <a href="#" class="link"
+              ><img
+                src="./assets/icons/facebook.svg"
+                alt="facebook"
+                class="social-icon"
+            /></a>
+            <a href="#" class="link"
+              ><img
+                src="./assets/icons/tweeter.svg"
+                alt="tweeter"
+                class="social-icon"
+            /></a>
+            <a href="#" class="link"
+              ><img
+                src="./assets/icons/youtube.svg"
+                alt="youtube"
+                class="social-icon" /></a
+            ><a href="#" class="link"
+              ><img
+                src="./assets/icons/instagram.svg"
+                alt="instagram"
+                class="social-icon" /></a
+            ><a href="#" class="link"
+              ><img
+                src="./assets/icons/linkedin.svg"
+                alt="linkedin"
+                class="social-icon" /></a
+            ><a href="#" class="link"
+              ><img
+                src="./assets/icons/tik-tok.svg"
+                alt="tik-tok"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Donation -->
+      <section class="donation">
+        <div class="left-part">
+          <img
+            src="./assets/icons/ua-heart-white-border.svg"
+            alt="heart"
+            class="heart-logo"
+          />
+          <h2 class="title">
+            Each donation can have a significant impact on those in need.
+          </h2>
+          <p class="text">
+            At VFU, we believe that everyone has the power to create positive
+            change, and we invite you to be a part of our mission to support
+            Ukraine.
+          </p>
+          <button class="help-btn" type="button">
+            I want to help
+            <img
+              src="./assets/icons/ua-heart-blue-border.svg"
+              alt="heart"
+              class="btn-icon"
+            />
+          </button>
+        </div>
+        <div class="right-part">
+          <button class="share-btn" type="button">
+            Share the website
+            <img
+              src="./assets/icons/link-blue.svg"
+              alt="link"
+              class="btn-icon"
+            />
+          </button>
+          <img
+            src="./assets/images/logo-blue-text.svg"
+            alt="logo"
+            class="logo"
+          />
+          <button class="shop-btn" type="button">
+            Visit VFU shop
+            <img
+              src="./assets/icons/shopping-bag.svg"
+              alt="shopping bag"
+              class="btn-icon"
+            />
+          </button>
+        </div>
+      </section>
+
+      <!-- Section Arrows -->
+      <section class="arrows">
+        <p class="text">Donate</p>
+        <p class="text">Share information</p>
+        <p class="text">Stop war</p>
+        <p class="text">Support Ukraine</p>
+        <p class="text">Donate</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="top-part">
+        <div class="container">
+          <div class="logo-wrapper">
+            <img
+              src="./assets/images/logo-white-text.svg"
+              alt="logo"
+              class="logo"
+            />
+            <div class="title-wrapper">
+              <h3 class="title">VOLUNTEERS FOR UKRAINE</h3>
+              <button class="help-btn" type="button">
+                I want to help
+                <img
+                  src="./assets/icons/ua-heart-blue-border.svg"
+                  alt="heart"
+                  class="btn-icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="links-wrapper">
+            <div class="left-part">
+              <a href="#" class="bold-text">About VFU</a>
+              <a href="#" class="text">Who we are</a>
+              <a href="#" class="text">Projects</a>
+              <a href="#" class="text">Contacts</a>
+              <a href="#" class="text">FAQ</a>
+            </div>
+            <div class="middle-part">
+              <a href="#" class="bold-text">News</a>
+              <a href="#" class="text">Recent updates</a>
+              <a href="#" class="text">Media features</a>
+            </div>
+            <div class="right-part">
+              <a href="#" class="bold-text">Partners NGOs</a>
+            </div>
+          </div>
+          <div class="qr-code">
+            <img src="./assets/images/qr-code.jpg" alt="QR code" class="code" />
+            <p class="text">For donation</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-part">
+        <div class="container">
+          <p class="rights-text">
+            2023 Volunteers for Ukraine. All rights reserved | Privacy policy
+          </p>
+          <div class="links-wrapper">
+            <img
+              src="./assets/icons/facebook-white.svg"
+              alt="facebook"
+              class="link-icon"
+            />
+            <img
+              src="./assets/icons/tweeter-white.svg"
+              alt="tweeter"
+              class="link-icon"
+            />
+            <img
+              src="./assets/icons/instagram-white.svg"
+              alt="instagram"
+              class="link-icon"
+            />
+            <img
+              src="./assets/icons/youtube-white.svg"
+              alt="youtube"
+              class="link-icon"
+            />
+            <img
+              src="./assets/icons/linkedin-white.svg"
+              alt="linkedin"
+              class="link-icon"
+            />
+            <img
+              src="./assets/icons/tik-tok-white.svg"
+              alt="tik-tok"
+              class="link-icon"
+            />
+            <img
+              src="./assets/icons/link-white.svg"
+              alt="link"
+              class="link-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/scripts/slider.js"></script>
+    <script src="./assets/scripts/navbar.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        speed: 8000,
+        slidesPerView: 3,
+        autoplay: {
+          delay: 2,
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+header {
+  width: 100%;
+  background-color: #f3f8fd;
+  .navbar {
+    height: 85px;
+    border-bottom: 1px solid #979797;
+
+    .navbar-toggler {
+      color: $primaryButtonColor;
+    }
+  }
+
+  #navbarContent {
+    flex-grow: 0;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .nav-item {
+    align-items: center;
+  }
+
+  .nav-link {
+    display: block;
+    color: #133a6f;
+    margin: 0 32px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .nav-item-icon {
+    margin-left: 8px;
+  }
+
+  .btn-primary {
+    padding: 10px 30px;
+    gap: 8px;
+    background: #1b5aae;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+  }
+
+  .btn-primary.nav {
+    margin-left: 24px;
+  }
+
+  .btn-secondary {
+    padding: 10px 30px;
+    gap: 8px;
+    border: 1px solid #1b5aae;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #133a6f;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .btn-icon {
+    margin-left: 8px;
+  }
+}
+
+@include media-breakpoint-down(xxl) {
+  header {
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  header {
+    .nav-link {
+      margin: 0 16px;
+      font-size: 14px;
+    }
+
+    .nav-item-icon {
+      margin-left: 4px;
+    }
+
+    .btn-primary {
+      padding: 8px 15px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .btn-primary.nav {
+      margin-left: 20px;
+    }
+
+    .btn-secondary {
+      padding: 8px 15px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .btn-icon {
+      margin-left: 4px;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  header {
+    .navbar-collapse {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 20;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+      background-color: #f3f8fd;
+
+      .navbar-nav {
+        margin-top: 30px;
+        row-gap: 20px;
+        padding-bottom: 30px;
+
+        .nav-item {
+          .nav-link {
+            margin: 0;
+            padding: 0;
+          }
+          .btn-primary {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  header {
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  header {
+  }
+}
